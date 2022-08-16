@@ -7,6 +7,7 @@ import c4 from "./pic/sony.png";
 
 
 
+
 export default function Navbar(props) {
 
 
@@ -16,18 +17,19 @@ export default function Navbar(props) {
 
 
 
-
-
-
-
     return (
+
         <>
+
+
+
+
 
 
 
             <header>
 
-                <nav className="navbar h-class-resp">
+                <nav className="navbar  h-class-resp">
                     <ul className="navlist v-class-resp">
                         <li><a href="/">Home</a></li>
                         <li> <a href="/">Explore</a> </li>
@@ -44,7 +46,7 @@ export default function Navbar(props) {
 
                     </div>
 
-                    <div className="burgar">
+                    <div className="burgar" onClick= {burgarclick()} >
                         <div className="line"></div>
                         <div className="line"></div>
                         <div className="line"></div>
@@ -183,6 +185,17 @@ export default function Navbar(props) {
 
 
 
+
+
+
+
+
         </>
+
+
     );
+
+
+
+
 }

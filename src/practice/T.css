@@ -1,0 +1,35 @@
+.name {
+  text-align: center;
+}
+.name textarea {
+  width: 70%;
+}
+.btnn {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 5px;
+  width: 20%;
+  height: 30px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 17px;
+}
+.btnn2 {
+  display: inline-block;
+  margin-right: 300px;
+  margin-top: 5px;
+  width: 20%;
+  height: 30px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 17px;
+}
+
+.name h2 {
+  width: 42%;
+  margin-top: 30px;
+}
+.name p {
+  width: 42%;
+  margin-top: 30px;
+}
