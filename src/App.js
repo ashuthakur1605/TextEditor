@@ -13,7 +13,7 @@ function App() {
 
   return (<>
   <Navbar Aboutus='About us ' search = 'Search'/>
-  {/* <Resp/> */}
+  {<Resp/>}
   {/* <Texty/>
   <Web/> */}
    
