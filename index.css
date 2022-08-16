@@ -1,0 +1,60 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 643px;
+}
+.header {
+  background-color: rgb(53, 53, 53);
+  color: rgb(209, 209, 209);
+  border: 2px solid red;
+}
+.header h1 {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  top: 1px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+.header img {
+  background-color: black;
+  width: 8%;
+  height: 4%;
+  margin-left: 123px;
+}
+.chating-Area {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+}
+.box {
+  background-color: rgb(65, 196, 65);
+  height: 42px;
+  margin-bottom: 12px;
+}
+.subbox1{
+    display: inline-block;
+    margin-right:  95px; 
+    font-size: 18px;
+    color: white;
+}
+
+.subbox2{
+    display: inline-block;
+    margin-right:  99px; 
+    margin-top:  12px; 
+    font-size: 18px;
+    color: white;
+
+
+}
+.subbox3{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+   
+}
+.contact {
+  border-bottom: 2px solid rgb(143, 142, 145);
+  height: 62px;
+}
