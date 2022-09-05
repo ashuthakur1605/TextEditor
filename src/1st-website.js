@@ -13,6 +13,23 @@ export default function Navbar(props) {
 
 
 
+    const burgarclick = () => {
+        let burgar = document.querySelector('.burgar')
+        let navbar = document.querySelector('.navbar')
+        let navlist = document.querySelector('.navlist')
+        let bar = document.querySelector('.bar')
+
+        burgar.addEventListener('click', () => {
+            console.log('this sisi is click')
+            navbar.classList.toggle('h-class-resp')
+            navlist.classList.toggle('v-class-resp')
+            bar.classList.toggle('v-class-resp')
+
+        });
+    }
+
+
+
 
 
 
@@ -20,6 +37,10 @@ export default function Navbar(props) {
     return (
 
         <>
+
+
+
+
 
 
 
@@ -46,7 +67,7 @@ export default function Navbar(props) {
 
                     </div>
 
-                    <div className="burgar" onClick= {burgarclick()} >
+                    <div className="burgar" onClick={burgarclick} >
                         <div className="line"></div>
                         <div className="line"></div>
                         <div className="line"></div>
@@ -190,10 +211,11 @@ export default function Navbar(props) {
 
 
 
+
         </>
 
-
     );
+
 
 
 

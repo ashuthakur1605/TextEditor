@@ -124,12 +124,12 @@ body {
   height: 13px;
   outline: none;
 }
-.btn {
+/* .btn {
   height: 19px;
   text-align: left;
-  width: 12vw;
+  width: 12%;
   outline: none;
-}
+} */
 
 .mainbox {
   display: flex;
