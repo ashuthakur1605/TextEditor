@@ -3,14 +3,9 @@ import { useState } from 'react';
 import Web from './practice/web';
 import Nav from './practice/Naav';
 import './practice/T.css';
-import Aboutus from './practice/About';
+// import Aboutus from './practice/About'; 
 
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
 
 
 
@@ -30,28 +25,11 @@ function App() {
       document.body.style.backgroundColor = 'white'
     }
   }
-
+  
   return (<>
-    <Router>
-      <Nav title='TextUtils' mode={mode} toggleMode={toggleMode} />
-      <div className="container my-3">
 
-      <Switch>
-
-        <Route exact path="/about">
-          <Aboutus />
-        </Route>
-
-        <Route exact path="/">
-          <Web mode={mode} />
-        </Route>
-      </Switch>
-      </div>
-
-      {/* <Nav/> */}
-      {/* <Aboutus/> */}
-    </Router>
-
+    <Nav title='TextUtils' mode={mode} toggleMode={toggleMode} />
+    <Web mode={mode} />
   </>
 
   );
