@@ -1,15 +1,15 @@
 {
-  "main.css": "/ProfessionalWebsite/static/css/main.cde28cc1.chunk.css",
-  "main.js": "/ProfessionalWebsite/static/js/main.db6b4b70.chunk.js",
-  "main.js.map": "/ProfessionalWebsite/static/js/main.db6b4b70.chunk.js.map",
-  "static/js/1.03ae7ea8.chunk.js": "/ProfessionalWebsite/static/js/1.03ae7ea8.chunk.js",
-  "static/js/1.03ae7ea8.chunk.js.map": "/ProfessionalWebsite/static/js/1.03ae7ea8.chunk.js.map",
-  "static/js/2.5b977f20.chunk.js": "/ProfessionalWebsite/static/js/2.5b977f20.chunk.js",
-  "static/js/2.5b977f20.chunk.js.map": "/ProfessionalWebsite/static/js/2.5b977f20.chunk.js.map",
-  "runtime~main.js": "/ProfessionalWebsite/static/js/runtime~main.f92664e5.js",
-  "runtime~main.js.map": "/ProfessionalWebsite/static/js/runtime~main.f92664e5.js.map",
-  "static/css/main.cde28cc1.chunk.css.map": "/ProfessionalWebsite/static/css/main.cde28cc1.chunk.css.map",
-  "index.html": "/ProfessionalWebsite/index.html",
-  "precache-manifest.3eec673cda7de3b30740ea8568942472.js": "/ProfessionalWebsite/precache-manifest.3eec673cda7de3b30740ea8568942472.js",
-  "service-worker.js": "/ProfessionalWebsite/service-worker.js"
+  "main.css": "/Website/static/css/main.b62d379e.chunk.css",
+  "main.js": "/Website/static/js/main.76c39b2a.chunk.js",
+  "main.js.map": "/Website/static/js/main.76c39b2a.chunk.js.map",
+  "static/js/1.8f2f4211.chunk.js": "/Website/static/js/1.8f2f4211.chunk.js",
+  "static/js/1.8f2f4211.chunk.js.map": "/Website/static/js/1.8f2f4211.chunk.js.map",
+  "static/js/2.56d911f8.chunk.js": "/Website/static/js/2.56d911f8.chunk.js",
+  "static/js/2.56d911f8.chunk.js.map": "/Website/static/js/2.56d911f8.chunk.js.map",
+  "runtime~main.js": "/Website/static/js/runtime~main.ba73fb4c.js",
+  "runtime~main.js.map": "/Website/static/js/runtime~main.ba73fb4c.js.map",
+  "static/css/main.b62d379e.chunk.css.map": "/Website/static/css/main.b62d379e.chunk.css.map",
+  "index.html": "/Website/index.html",
+  "precache-manifest.75a983edbe2bde0c5b2a797ffccbd5d8.js": "/Website/precache-manifest.75a983edbe2bde0c5b2a797ffccbd5d8.js",
+  "service-worker.js": "/Website/service-worker.js"
 }
