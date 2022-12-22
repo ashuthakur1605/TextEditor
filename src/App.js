@@ -77,7 +77,7 @@ function App() {
 
         <Switch>
 
-          <Route exact path="/about">
+          <Route exact path="/About">
             <Aboutus />
           </Route>
 
