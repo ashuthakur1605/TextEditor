@@ -17,10 +17,10 @@ export default function Nav(props) {
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav">
                                <li>
-                               <Link className="btn btn-primary mx-1" to='/' role="button">Home</Link>
+                               <Link  className="nav-link active" aria-current="page"  style={{color: props.mode === 'dark' ? 'white' : 'black' }} to="/">Home</Link>
                                </li>
                                 <li>
-                                <Link className="btn btn-primary mx-1" to='/about' role="button">About</Link>
+                                <Link  className="nav-link active" aria-current="page"  style={{color: props.mode === 'dark' ? 'white' : 'black' }} to='/about'>About</Link>
                                 </li>
                             </div>
                         </div>
