@@ -53,7 +53,7 @@ export default function Web(props) {
             <header>
                 <div className="name" style={{color: props.mode === 'dark' ? 'white' : 'black' }}>
                     <div>
-                        <h1 > Congratulation</h1>
+                        <h1 >Text Editor</h1>
                     </div>
 
                     <label htmlFor="form" className="my-form"></label>
@@ -76,8 +76,8 @@ export default function Web(props) {
 
                     <h2 >Preview</h2>
                     <p >{text}</p>
-                    <h2 >Extract Number</h2>
-                    <p >{text.length>0?text:'Enter something in the textarea above to preview it here'} </p>
+                    {/* <h2 >Extract Number</h2>
+                    <p >{text.length>0?text:'Enter something in the textarea above to preview it here'} </p> */}
 
                 </div>
 

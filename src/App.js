@@ -77,13 +77,13 @@ function App() {
 
         <Switch>
 
+          <Route exact path="/">
+            <Web mode={mode} />
+          </Route>
           <Route exact path="/About">
             <Aboutus />
           </Route>
 
-          <Route exact path="/">
-            <Web mode={mode} />
-          </Route>
         </Switch>
       </div>
 
