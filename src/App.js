@@ -80,7 +80,7 @@ function App() {
           <Route exact path="/">
             <Web mode={mode} />
           </Route>
-          <Route exact path="/website">
+          <Route exact path="/TextEditor">
           <Web mode={mode} />
           </Route>
           <Route exact path="/About">
