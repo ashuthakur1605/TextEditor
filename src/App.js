@@ -80,6 +80,9 @@ function App() {
           <Route exact path="/">
             <Web mode={mode} />
           </Route>
+          <Route exact path="/website">
+          <Web mode={mode} />
+          </Route>
           <Route exact path="/About">
             <Aboutus />
           </Route>
